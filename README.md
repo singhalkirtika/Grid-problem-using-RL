@@ -8,3 +8,5 @@ the rest of the time, the action moves the agent at right angles to the intended
 agent bumps into a wall, it stays in the same square.  The immediate reward for moving to any state (s) except for the terminal states S+ 
 is r(s)= -0.04.  And the reward for moving to terminal states is +1 and -1 respectively.  Find the value function corresponding to the 
 optimal policy using value iteration
+
+![](grid.jpg)
