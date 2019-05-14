@@ -9,4 +9,8 @@ agent bumps into a wall, it stays in the same square.  The immediate reward for 
 is r(s)= -0.04.  And the reward for moving to terminal states is +1 and -1 respectively.  Find the value function corresponding to the 
 optimal policy using value iteration
 
+4X3 grid with red color grid position representing -1 reward. Grid position 0 is the starting state and 11 is the goal stte with reward +1
 ![](grid.jpg)
+
+### Approach
+First calculate the value for each action from the current state by using the value function and take the action which gives the maximum value (Bellman equation). This becomes our optimal action for that iteration in that state. In each iteration we check whether the previous iteration values of the states are equal to the corresponding current iteration value, if yes, then we stop, else iterate again.
