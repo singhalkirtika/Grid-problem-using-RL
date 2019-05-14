@@ -9,7 +9,8 @@ agent bumps into a wall, it stays in the same square.  The immediate reward for 
 is r(s)= -0.04.  And the reward for moving to terminal states is +1 and -1 respectively.  Find the value function corresponding to the 
 optimal policy using value iteration
 
-4X3 grid with red color grid position representing -1 reward. Grid position 0 is the starting state and 11 is the goal stte with reward +1
+Below is a 4X3 grid with red color grid position representing -1 reward. Grid position 0 is the starting state and 11 is the goal stte with reward +1
+<br />
 ![](grid.jpg)
 
 ### Approach
